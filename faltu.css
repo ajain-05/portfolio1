@@ -10,7 +10,7 @@ body{
     background-color: #DDE0C2;
 }
 .header{
-    z-index: 0;
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
@@ -122,7 +122,7 @@ body{
     border-radius: 1rem;
     color: #2D2E32;
 }
-#Home{
+/* #Home{
     animation-name: home;
     animation-duration: 8s;
     animation-timing-function:ease-in-out;
@@ -137,7 +137,7 @@ body{
         transform: translate(0);
         opacity: 100;
     }
-}
+} */
 #About{
     padding-top: 4.5rem;
 }
@@ -152,6 +152,7 @@ body{
 
 
 .aboutMe{
+    z-index: -1;
     margin-left: 5vw;
     width: 50vw;
     padding-top: 1rem;
@@ -175,6 +176,7 @@ body{
     margin-left: 10vw;
 }
 .aboutMe1,.aboutMe2{
+    z-index: -1;
     font-size: 1.5rem;
     overflow-y: auto;
     /* width: 45vw; */
@@ -186,7 +188,7 @@ body{
     padding: 1.5rem;
     color: #333333;
 }
-#About{
+/* #About{
     opacity: 0;
     animation-name: about;
     animation-duration: 8s;
@@ -205,7 +207,7 @@ body{
         transform: translate(100%);
         opacity: 0;
     }
-}
+} */
 
 #Projects>h2,#Achievements>h2,#Contact>h2{
     padding-top: 5vw;
@@ -340,7 +342,6 @@ footer a{
         background-color: #333333;
         text-align: center;
         transform: translateX(100%); /* Hide off-screen */
-       
     }
 
     .nav a {
@@ -415,55 +416,56 @@ footer a{
         /* box-shadow: 0px 0px 5px 5px #1E1E1E, 0px 0px 0px 10px white; */
     }
 
-    /* #About{
-        z-index: 0;
-        padding-top: 15vw;
-    }
-    #About>h2{
-        color: #FF6F61; 
-        margin-left: 1rem;
-        font-size: 5vw;
-        text-decoration-line: underline;
-        text-decoration-style: dashed;
-        text-decoration-thickness: 1px;
-    }
-    
-    
-    .aboutMe{
-       
-        width: 100vw;
-        padding-top: 1rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 1vw;
-        align-items: start;
-        justify-items: start;
-    }
-    .myImg2,.myImg3{
-        margin-top: 1rem;
-        height: 20vw;
-        width: 20vw;
-        margin-left: 3rem;
-    }
-    .aboutMe1,.aboutMe2{
-
-        font-size: 2vw;
-        overflow-y: auto;
-        border: 1vw solid #2D9CDB;
-        background-color: #E8F1F4;;
-    }
-    .aboutMe1>p, .aboutMe2>p,.aboutMe1>ul,.aboutMe2>ul{
-        padding: 1.5rem;
-        color: #333333;
-    }
-    #Projects>h2{
-        margin-top: 2rem;
+    #Projects>h2,#Achievements>h2,#Contact>h2{
+        padding-top: 8vw;
         margin-left: 1rem;
         font-size: 2.5rem;
         text-decoration-line: underline;
         text-decoration-style: dashed;
         text-decoration-thickness: 1.5px;
-    } */
+        color: #8C1D40;
+    }
+    
+    .project{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    
+    .box>img{
+        width: 20vw;
+        height: 10vw;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+        height: 20vw;
+        background-color: #37474F;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+    }
+    .box>p{
+        background-color:  #F9F9F9;
+        color: #37474F;
+        margin-top: 0.5rem;
+        border-radius: 0.3rem;
+    }
+    .box>a{
+        color: #1E1E1E;;
+        background-color: #C9B26C;
+        margin-top: 0.5vw;
+        border-radius: 0.2rem;
+        text-align: center;
+        text-decoration-line:none ;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .box>a:hover{
+        color: #F9F9F9;
+        background-color: #8C1D40;
+    }
 
 }
 
