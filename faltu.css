@@ -122,7 +122,7 @@ body{
     border-radius: 1rem;
     color: #2D2E32;
 }
-/* #Home{
+ #Home{
     animation-name: home;
     animation-duration: 8s;
     animation-timing-function:ease-in-out;
@@ -137,7 +137,7 @@ body{
         transform: translate(0);
         opacity: 100;
     }
-} */
+} 
 #About{
     padding-top: 4.5rem;
 }
@@ -176,7 +176,7 @@ body{
     margin-left: 10vw;
 }
 .aboutMe1,.aboutMe2{
-    z-index: -1;
+    z-index: 0;
     font-size: 1.5rem;
     overflow-y: auto;
     /* width: 45vw; */
@@ -188,7 +188,7 @@ body{
     padding: 1.5rem;
     color: #333333;
 }
-/* #About{
+ #About{
     opacity: 0;
     animation-name: about;
     animation-duration: 8s;
@@ -207,7 +207,7 @@ body{
         transform: translate(100%);
         opacity: 0;
     }
-} */
+} 
 
 #Projects>h2,#Achievements>h2,#Contact>h2{
     padding-top: 5vw;
