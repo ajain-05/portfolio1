@@ -296,7 +296,6 @@ body{
     }
 
     #About{
-        z-index: 0;
         padding-top: 15vw;
     }
     #About>h2{
