@@ -108,7 +108,7 @@ body{
     animation-timing-function:ease-in-out;
     animation-iteration-count: 1;
 }
-@keyframes home{
+/* @keyframes home{
     from{
         transform: translate(-100%);
         opacity: 0;
@@ -117,7 +117,7 @@ body{
         transform: translate(0);
         opacity: 100;
     }
-}
+} */
 .img>img{
     height: 25vw;
     width: 18vw;
@@ -146,7 +146,9 @@ body{
 
 #About{
     padding-top: 4.5rem;
+}
 
+/* #About{
     opacity: 0;
     animation-name: about;
     animation-duration: 5s;
@@ -165,7 +167,7 @@ body{
         transform: translate(100%);
         opacity: 0;
     }
-}
+} */
 #About>h2{
     color: #8C1D40; 
     margin-left: 3rem;
@@ -264,7 +266,7 @@ body{
     background-color: #8C1D40;
 }
 
-#Projects{
+/* #Projects{
     opacity: 0;
     animation-delay: 4s;
     animation-name: project;
@@ -281,8 +283,8 @@ body{
         opacity: 1;
         transform: rotateX(0);
     }
-}
-#Achievements{
+} */
+/* #Achievements{
     opacity: 0;
     animation-delay: 8s;
     animation-name:achiev;
@@ -299,15 +301,14 @@ body{
         opacity: 1;
         transform: scale(1);
     }
-}
+} */
 
 
-/* .cont{
-    display: flex;
-    justify-content: center;
+.cont{
+   margin-left: 5vw;
 }
 .contForm{
-    width: 25vw;
+    width: 30vw;
     margin-top: 2vw;
     font-size: 1.5rem;
     background-color: #2A363B;
@@ -315,15 +316,22 @@ body{
 }
 textarea{
     position: relative;
-    top: 3rem;
+    top: 2vw;
+    width: 10vw;
+    height: 5vw;
+    
 }
 label{
-    padding: 5rem 2rem;
+    padding: 5vw 2vw;
+}
+input,select{
+    width: 10vw;
+    height: 1.5vw;
 }
 legend{
-    margin-left: 0.4rem;
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-left: 0.8vw;
+    font-size: 1vw;
+    margin-bottom: 1vw;
     text-decoration: dotted;
     text-decoration-line:underline ;
     text-decoration-thickness: 1px;
@@ -336,8 +344,8 @@ span{
     color: red;
 }
 button{
-    width: 4rem;
-    height: 2rem;
+    width: 4vw;
+    height: 2vw;
     margin-top: 2vw;
     margin-left: 10vw;
     background-color: #2A9D8F;
@@ -371,7 +379,7 @@ footer a{
 .footer a:hover {
     color: #2A9D8F;
     text-decoration: underline;
-} */
+}
 
 @media(max-width:768px){
     .nav {
@@ -824,78 +832,57 @@ footer a{
         text-decoration-line:none ;
         transition: background-color 0.3s ease, color 0.3s ease;
     }
-    /* .cont{
-        display: flex;
-        justify-content: center;
-    }
+    .cont{
+        margin-left: 30vw;
+     }
     .contForm{
-        width: 25vw;
-        margin-top: 2vw;
-        font-size: 1.5rem;
-        background-color: #2A363B;
-        color: #F0E5D8;
-    }
-    textarea{
-        position: relative;
-        top: 3rem;
-    }
-    label{
-        padding: 5rem 2rem;
-    }
-    legend{
-        margin-left: 0.4rem;
-        font-size: 1rem;
-        margin-bottom: 1rem;
-        text-decoration: dotted;
-        text-decoration-line:underline ;
-        text-decoration-thickness: 1px;
-    }
-    fieldset{
-        width: 25vw;
-        border: none;
-    }
-    span{
-        color: red;
-    }
-    button{
-        width: 4rem;
-        height: 2rem;
-        margin-top: 2vw;
-        margin-left: 10vw;
-        background-color: #2A9D8F;
-        color: #F0E5D8;
-        border: none;
+        text-align: justify;
         border-radius: 0.5rem;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
+         width: 60vw;
+         margin-top: 2vw;
+         font-size: 4vw;
+         background-color: #2A363B;
+         color: #F0E5D8;
+     }
+    textarea{
+         height: 20vw;
+         width: 50vw;
+         margin-left: 5vw;
+         
+     }
+    input,select{
+        border-radius: 1rem;
+        margin-left: 3vw;
+         width: 50vw;
+         height: 7vw;
+     }
+    legend{
+         margin-left: 1.5vw;
+         font-size: 3vw;
+         margin-bottom: 1vw;
+         text-decoration: dotted;
+         text-decoration-line:underline ;
+         text-decoration-thickness: 1px;
+     }
+    fieldset{
+         width: 25vw;
+         border: none;
+     }
+    button{
+         width: 20vw;
+         height: 10vw;
+         margin-left: 20vw;
+         transition: background-color 0.3s ease;
     }
-    button:hover {
-        background-color: #264653;
-        color: #E9C46A;
+    #Contact>h2{
+        padding-top: 15vw;
     }
-    
     .footer{
-        width: 100vw;
-        border: 0.5rem double #E76F51;
+        width: 24rem;
+        border: 0.3rem double #E76F51;
         margin-top: 1rem;
-        color: #F0E5D8;
-        background-color: #264653;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.2rem;
+        font-size: 0.7rem;
     }
-    footer a{
-        color:#F4A261;
-        text-decoration-line: none;
-    }
-    .footer a:hover {
-        color: #2A9D8F;
-        text-decoration: underline;
-    } */
-    
-
 }
 
 @media(max-width:360px) and (min-width:352px){
@@ -954,5 +941,64 @@ footer a{
         text-align: center;
         text-decoration-line:none ;
         transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .cont{
+        margin-left: 25vw;
+     }
+    .contForm{
+        text-align: justify;
+        border-radius: 0.5rem;
+         width: 60vw;
+         margin-top: 5vw;
+         font-size: 3vw;
+         background-color: #2A363B;
+         color: #F0E5D8;
+     }
+    textarea{
+         height: 20vw;
+         width: 50vw;
+         margin-left: 5vw;
+         
+     }
+    input,select{
+        border-radius: 1rem;
+        margin-left: 3vw;
+         width: 40vw;
+         height: 5vw;
+     }
+    legend{
+         margin-left: 1.5vw;
+         font-size: 3vw;
+         margin-bottom: 1vw;
+         text-decoration: dotted;
+         text-decoration-line:underline ;
+         text-decoration-thickness: 1px;
+     }
+    fieldset{
+         width: 25vw;
+         border: none;
+     }
+    button{
+         width: 20vw;
+         height: 10vw;
+         margin-left: 20vw;
+         transition: background-color 0.3s ease;
+    }
+    #Contact>h2{
+        padding-top: 15vw;
+    }
+    .footer{
+        width: 23.5rem;
+        border: 0.3rem double #E76F51;
+        margin-top: 1rem;
+        font-size: 0.7rem;
+    }
+
+    .header{
+        height: 15vw;
+    }
+    #Projects>h2{
+        padding-top: 15vw;
     }
 }
