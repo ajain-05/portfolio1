@@ -104,7 +104,7 @@ body{
     justify-content: space-around;
 
     animation-name: home;
-    animation-duration: 8s;
+    animation-duration: 5s;
     animation-timing-function:ease-in-out;
     animation-iteration-count: 1;
 }
@@ -146,31 +146,10 @@ body{
 
 #About{
     padding-top: 4.5rem;
-}
-#About>h2{
-    color: #8C1D40; 
-    margin-left: 3rem;
-    font-size: 2.5rem;
-    text-decoration-line: underline;
-    text-decoration-style: dashed;
-    text-decoration-thickness: 1.5px;
-}
-
-
-.aboutMe{
-    z-index: -1;
-    margin-left: 5vw;
-    width: 50vw;
-    padding-top: 1rem;
-    display: grid;
-    grid-template-columns: repeat(2,40vw);
-    justify-items: center;
-    align-items: center;
-    column-gap: 10vw;
 
     opacity: 0;
     animation-name: about;
-    animation-duration: 8s;
+    animation-duration: 5s;
     animation-delay: 1s;
     animation-timing-function:ease-in-out;
     animation-iteration-count: 1;
@@ -186,6 +165,26 @@ body{
         transform: translate(100%);
         opacity: 0;
     }
+}
+#About>h2{
+    color: #8C1D40; 
+    margin-left: 3rem;
+    font-size: 2.5rem;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1.5px;
+}
+
+.aboutMe{
+    z-index: -1;
+    margin-left: 5vw;
+    width: 50vw;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,40vw);
+    justify-items: center;
+    align-items: center;
+    column-gap: 10vw;
 }
 
 .myImg2{
@@ -214,16 +213,6 @@ body{
     padding: 1.5rem;
     color: #333333;
 }
-/* #About{
-    opacity: 0;
-    animation-name: about;
-    animation-duration: 8s;
-    animation-delay: 1s;
-    animation-timing-function:ease-in-out;
-    animation-iteration-count: 1;
-    animation-direction:reverse;
-    animation-fill-mode: forwards;
-} */
 
 #Projects>h2,#Achievements>h2,#Contact>h2{
     padding-top: 5vw;
@@ -239,23 +228,6 @@ body{
     margin-top: 2rem;
     display: flex;
     justify-content: space-evenly;
-
-    opacity: 0;
-    animation-delay: 4s;
-    animation-name: project;
-    animation-duration: 8s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
-@keyframes project{
-    from{
-        opacity: 0;
-        transform: rotateX(90deg);
-    }
-    to{
-        opacity: 1;
-        transform: rotateX(0);
-    }
 }
 
 .box>img{
@@ -292,11 +264,29 @@ body{
     background-color: #8C1D40;
 }
 
-.Achievements{
+#Projects{
     opacity: 0;
-    animation-delay: 5s;
+    animation-delay: 4s;
+    animation-name: project;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes project{
+    from{
+        opacity: 0;
+        transform: rotateX(90deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+#Achievements{
+    opacity: 0;
+    animation-delay: 8s;
     animation-name:achiev;
-    animation-duration: 10s;
+    animation-duration: 8s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
 }
