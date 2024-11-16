@@ -122,7 +122,7 @@ body{
     border-radius: 1rem;
     color: #2D2E32;
 }
- #Home{
+#Home{
     animation-name: home;
     animation-duration: 8s;
     animation-timing-function:ease-in-out;
@@ -137,7 +137,7 @@ body{
         transform: translate(0);
         opacity: 100;
     }
-} 
+}
 #About{
     padding-top: 4.5rem;
 }
@@ -179,8 +179,8 @@ body{
     z-index: 0;
     font-size: 1.5rem;
     overflow-y: auto;
-    /* width: 45vw; */
     height: 35vw;
+    border-radius: 0.5rem;
     border: 0.5rem solid #006A4E;
     background-color: #88BFBF;
 }
@@ -188,7 +188,7 @@ body{
     padding: 1.5rem;
     color: #333333;
 }
- #About{
+#About{
     opacity: 0;
     animation-name: about;
     animation-duration: 8s;
@@ -207,7 +207,7 @@ body{
         transform: translate(100%);
         opacity: 0;
     }
-} 
+}
 
 #Projects>h2,#Achievements>h2,#Contact>h2{
     padding-top: 5vw;
@@ -338,7 +338,6 @@ footer a{
         top: 10.5vw;
         right: 0vw;
         width: 25vw;
-        
         background-color: #333333;
         text-align: center;
         transform: translateX(100%); /* Hide off-screen */
@@ -373,28 +372,23 @@ footer a{
         display: flex;
         flex-direction: column;
         margin-left: 5vw;
-        color: #2D9CDB;
     }
     .heading > h1{
         font-size: 6vw;
-        color: #FF8A80;
     }
     .heading > p{
         font-size: 3vw;
         margin-right: 52vw;
-        color: #555555;
     }
     .imgP{
         padding-top: 0vw;
-        background-color: #E9F7F1;
         /* background-color: #1E1E1E; */
         width: 105vw;
         height: 55vw;
         display: flex;
         justify-content: space-between;
     }
-    .para{
-        background-color: #FADBD8;  
+    .para{ 
         margin-left: 2rem;
         font-size: 2.5vw;
         margin-top: 4.5rem;
@@ -402,7 +396,6 @@ footer a{
         text-align: justify;
         height: 32vw;
         border-radius: 5vw;
-        color: #3E3E3E;
     }
     .para>p{
         padding: 1.5vw;
@@ -423,7 +416,6 @@ footer a{
         text-decoration-line: underline;
         text-decoration-style: dashed;
         text-decoration-thickness: 1.5px;
-        color: #8C1D40;
     }
     
     .project{
@@ -442,29 +434,20 @@ footer a{
         flex-direction: column;
         width: 30vw;
         height: 20vw;
-        background-color: #37474F;
         justify-content: center;
         align-items: center;
         border-radius: 1rem;
     }
     .box>p{
-        background-color:  #F9F9F9;
-        color: #37474F;
         margin-top: 0.5rem;
         border-radius: 0.3rem;
     }
     .box>a{
-        color: #1E1E1E;;
-        background-color: #C9B26C;
         margin-top: 0.5vw;
         border-radius: 0.2rem;
         text-align: center;
         text-decoration-line:none ;
         transition: background-color 0.3s ease, color 0.3s ease;
-    }
-    .box>a:hover{
-        color: #F9F9F9;
-        background-color: #8C1D40;
     }
 
 }
@@ -485,27 +468,21 @@ footer a{
         display: flex;
         flex-direction: column;
         margin-left: 5vw;
-        color: #2D9CDB;
     }
     .heading > h1{
         font-size: 8vw;
-        color: #FF6F61;;
     }
     .heading > p{
         font-size: 3.5vw;
         margin-right: 50vw;
-        color: #555555;
     }
     .imgP{
-        background-color: #E9F7F1;
-        /* background-color: #1E1E1E; */
         width: 105vw;
         height: 55vw;
         display: flex;
         justify-content: space-between;
     }
     .para{
-        background-color: #F5E3D4;  
         margin-left: 2rem;
         font-size: 2.5vw;
         margin-top: 2.5rem;
@@ -513,7 +490,6 @@ footer a{
         text-align: justify;
         height: 32vw;
         border-radius: 5vw;
-        color: #333333;
     }
     .para>p{
         padding: 1.5vw;
@@ -531,8 +507,7 @@ footer a{
     #About{
         padding-top: 15vw;
     }
-    #About>h2{
-        color: #FF9B90; 
+    #About>h2{ 
         margin-left: 1rem;
         font-size: 6vw;
         text-decoration-line: underline;
@@ -563,12 +538,9 @@ footer a{
         overflow-y: auto;
         width: 90vw;
         height: 50vh;
-        border: 1vw solid #2596BE;
-        background-color: #E8F1F4;;
     }
     .aboutMe1>p, .aboutMe2>p,.aboutMe1>ul,.aboutMe2>ul{
         padding: 1.5rem;
-        color: #333333;
     }
     #Projects>h2{
         margin-top: 2rem;
@@ -586,7 +558,6 @@ footer a{
         text-decoration-line: underline;
         text-decoration-style: dashed;
         text-decoration-thickness: 1px;
-        color: #8C1D40;
     }
     #Achievements>h2{
         padding-top: 15vw;
@@ -595,7 +566,6 @@ footer a{
         text-decoration-line: underline;
         text-decoration-style: dashed;
         text-decoration-thickness: 1px;
-        color: #8C1D40;
     }
     .project{
         margin-top: 4vw;
@@ -614,7 +584,6 @@ footer a{
         flex-direction: column;
         width: 39vw;
         height: 40vw;
-        background-color: #37474F;
         justify-content: center;
         align-items: center;
         border-radius: 0.5rem;
@@ -622,23 +591,16 @@ footer a{
     .box>p{
         background-color:  #F9F9F9;
         font-size: 3vw;
-        color: #37474F;
         margin-top: 0.5rem;
         border-radius: 0.1rem;
     }
     .box>a{
-        color: #1E1E1E;
         font-size: 3vw;
-        background-color: #C9B26C;
         margin-top: 0.5vw;
         border-radius: 0.2rem;
         text-align: center;
         text-decoration-line:none ;
         transition: background-color 0.3s ease, color 0.3s ease;
-    }
-    .box>a:hover{
-        color: #F9F9F9;
-        background-color: #8C1D40;
     }
 
 }
@@ -654,11 +616,6 @@ footer a{
         cursor: pointer;
         font-size: 5vw;
         color: white;
-        /* margin-right: 1vw; */
-        /* position: absolute;
-        right: 2vw;
-        z-index: 10;
-        top: 1vw; */
     }
 
     .nav {
@@ -667,7 +624,6 @@ footer a{
         right: 0;
         display: flex;
         flex-direction: column;
-        background-color: #333333;
         text-align: center;
         transform: translateX(100%); /* Hide off-screen */
     }
@@ -703,27 +659,21 @@ footer a{
         display: flex;
         flex-direction: column;
         margin-left: 5vw;
-        color: #2D9CDB;
     }
     .heading > h1{
         font-size: 8vw;
-        color: #FFA4A4;
     }
     .heading > p{
         font-size: 3.5vw;
         margin-right: 50vw;
-        color: #555555;
     }
     .imgP{
-        background-color: #E9F7F1;
-        /* background-color: #1E1E1E; */
         width: 24rem;
         height: 55vw;
         display: flex;
         justify-content: space-between;
     }
-    .para{
-        background-color: #F5E3D4;  
+    .para{ 
         margin-left: 3rem;
         font-size: 2.5vw;
         margin-top: 2.5rem;
@@ -731,7 +681,6 @@ footer a{
         text-align: justify;
         height: 30.5vw;
         border-radius: 5vw;
-        color: #333333;
     }
     .para>p{
         padding: 2vw;
@@ -749,8 +698,7 @@ footer a{
     #About{
         padding-top: 3rem;
     }
-    #About>h2{
-        color: #FF6F61; 
+    #About>h2{ 
         margin-left: 1rem;
         font-size: 6vw;
         text-decoration-line: underline;
@@ -778,14 +726,9 @@ footer a{
         
         font-size: 4vw;
         overflow-y: auto;
-        /* width: 100vw;
-        height: 50vh; */
-        border: 1vw solid #2D9CDB;
-        background-color: #E8F1F4;;
     }
     .aboutMe1>p, .aboutMe2>p,.aboutMe1>ul,.aboutMe2>ul{
         padding: 1.5rem;
-        color: #333333;
     }
     
     #Projects>h2,#Contact>h2{
@@ -795,7 +738,6 @@ footer a{
         text-decoration-line: underline;
         text-decoration-style: dashed;
         text-decoration-thickness: 1px;
-        color: #8C1D40;
     }
     #Achievements>h2{
         padding-top: 15vw;
@@ -804,7 +746,6 @@ footer a{
         text-decoration-line: underline;
         text-decoration-style: dashed;
         text-decoration-thickness: 1px;
-        color: #8C1D40;
     }
     .project{
         margin-top: 4vw;
@@ -823,31 +764,22 @@ footer a{
         flex-direction: column;
         width: 30vw;
         height: 40vw;
-        background-color: #37474F;
         justify-content: center;
         align-items: center;
         border-radius: 0.5rem;
     }
     .box>p{
-        background-color:  #F9F9F9;
         font-size: 2.5vw;
-        color: #37474F;
         margin-top: 0.5rem;
         border-radius: 0.3rem;
     }
     .box>a{
-        color: #1E1E1E;
         font-size: 2.6vw;
-        background-color: #C9B26C;
         margin-top: 0.5vw;
         border-radius: 0.2rem;
         text-align: center;
         text-decoration-line:none ;
         transition: background-color 0.3s ease, color 0.3s ease;
-    }
-    .box>a:hover{
-        color: #F9F9F9;
-        background-color: #8C1D40;
     }
     /* .cont{
         display: flex;
@@ -923,3 +855,61 @@ footer a{
 
 }
 
+@media(max-width:360px) and (min-width:352px){
+    .aboutMe{
+        margin-left: -0.4rem;
+    }
+    
+    .aboutMe1,.aboutMe2{
+        border: 0.3rem solid #006A4E;
+    }
+    #Projects>h2,#Contact>h2{
+        padding-top: 13vw;
+        margin-left: 1rem;
+        font-size: 6vw;
+        text-decoration-line: underline;
+        text-decoration-style: dashed;
+        text-decoration-thickness: 1px;
+    }
+    #Achievements>h2{
+        padding-top: 15vw;
+        margin-left: 1rem;
+        font-size: 6vw;
+        text-decoration-line: underline;
+        text-decoration-style: dashed;
+        text-decoration-thickness: 1px;
+    }
+    .project{
+        margin-top: 10vw;
+        display: flex;
+        column-gap: 2rem;
+    }
+    
+    .box>img{
+        width: 30vw;
+        height: 25vw;
+    }
+    .box{
+        margin-left: 3rem;
+        display: flex;
+        flex-direction: column;
+        width: 32vw;
+        height: 40vw;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.5rem;
+    }
+    .box>p{
+        font-size: 2.5vw;
+        margin-top: 0.5rem;
+        border-radius: 0.3rem;
+    }
+    .box>a{
+        font-size: 2.6vw;
+        margin-top: 0.5vw;
+        border-radius: 0.2rem;
+        text-align: center;
+        text-decoration-line:none ;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+}
